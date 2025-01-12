@@ -11,7 +11,7 @@ import { faker } from '@faker-js/faker'
 import { extendedSafeInfoBuilder } from '@/tests/builders/safe'
 import useSafeInfo from '@/hooks/useSafeInfo'
 import { useNestedSafeOwners } from '@/hooks/useNestedSafeOwners'
-import type Safe from '@safe-global/protocol-kit'
+import type Safe from '@exsat/test-protocol-kit'
 
 const mockWalletAddress = faker.finance.ethereumAddress()
 // mock useWallet

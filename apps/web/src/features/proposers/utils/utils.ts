@@ -1,6 +1,6 @@
 import { signTypedData } from '@/utils/web3'
-import { SigningMethod } from '@safe-global/protocol-kit'
-import { adjustVInSignature } from '@safe-global/protocol-kit/dist/src/utils/signatures'
+import { SigningMethod } from '@exsat/test-protocol-kit'
+import { adjustVInSignature } from '@exsat/test-protocol-kit/dist/src/utils/signatures'
 import type { JsonRpcSigner } from 'ethers'
 
 const getProposerDataV2 = (chainId: string, proposerAddress: string) => {

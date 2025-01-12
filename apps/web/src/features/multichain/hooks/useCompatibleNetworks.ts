@@ -1,7 +1,7 @@
 import { type ReplayedSafeProps } from '@/features/counterfactual/store/undeployedSafesSlice'
 import useChains from '@/hooks/useChains'
 import { hasCanonicalDeployment, hasMatchingDeployment } from '@/services/contracts/deployments'
-import { ZERO_ADDRESS } from '@safe-global/protocol-kit/dist/src/utils/constants'
+import { ZERO_ADDRESS } from '@exsat/test-protocol-kit/dist/src/utils/constants'
 import { type SafeVersion } from '@safe-global/safe-core-sdk-types'
 import {
   getCompatibilityFallbackHandlerDeployments,
@@ -10,7 +10,7 @@ import {
   getSafeSingletonDeployments,
   getSafeToL2MigrationDeployments,
   getSafeToL2SetupDeployments,
-} from '@safe-global/safe-deployments'
+} from '@exsat/test-safe-deployments'
 import type { ChainInfo } from '@safe-global/safe-gateway-typescript-sdk'
 
 const SUPPORTED_VERSIONS: SafeVersion[] = ['1.4.1', '1.3.0']

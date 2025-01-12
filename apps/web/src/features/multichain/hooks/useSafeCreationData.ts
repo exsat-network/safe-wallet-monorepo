@@ -11,9 +11,9 @@ import { logError } from '@/services/exceptions'
 import ErrorCodes from '@/services/exceptions/ErrorCodes'
 import { asError } from '@/services/exceptions/utils'
 import semverSatisfies from 'semver/functions/satisfies'
-import { ZERO_ADDRESS } from '@safe-global/protocol-kit/dist/src/utils/constants'
-import { getSafeToL2SetupDeployment } from '@safe-global/safe-deployments'
-import { type SafeAccountConfig } from '@safe-global/protocol-kit'
+import { ZERO_ADDRESS } from '@exsat/test-protocol-kit/dist/src/utils/constants'
+import { getSafeToL2SetupDeployment } from '@exsat/test-safe-deployments'
+import { type SafeAccountConfig } from '@exsat/test-protocol-kit'
 
 export const SAFE_CREATION_DATA_ERRORS = {
   TX_NOT_FOUND: 'The Safe creation transaction could not be found. Please retry later.',

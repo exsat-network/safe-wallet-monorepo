@@ -12,7 +12,7 @@ import { sameAddress } from '@/utils/addresses'
 import { type AllowanceModule } from '@/types/contracts'
 import { getERC20TokenInfoOnChain } from '@/utils/tokens'
 
-import { sameString } from '@safe-global/protocol-kit/dist/src/utils'
+import { sameString } from '@exsat/test-protocol-kit/dist/src/utils'
 import { useAppSelector } from '@/store'
 import { selectTokens } from '@/store/balancesSlice'
 import isEqual from 'lodash/isEqual'

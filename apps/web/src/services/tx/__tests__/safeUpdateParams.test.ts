@@ -1,11 +1,11 @@
 import * as sdkHelpers from '@/services/tx/tx-sender/sdk'
 import { sameAddress } from '@/utils/addresses'
-import type { SafeProvider } from '@safe-global/protocol-kit'
+import type { SafeProvider } from '@exsat/test-protocol-kit'
 import {
   getFallbackHandlerDeployment,
   getSafeL2SingletonDeployment,
   getSafeSingletonDeployment,
-} from '@safe-global/safe-deployments'
+} from '@exsat/test-safe-deployments'
 import { type SafeInfo } from '@safe-global/safe-gateway-typescript-sdk'
 import { Interface, JsonRpcProvider } from 'ethers'
 import { createUpdateSafeTxs } from '../safeUpdateParams'

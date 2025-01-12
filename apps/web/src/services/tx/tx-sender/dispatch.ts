@@ -1,7 +1,7 @@
 import type { ConnectedWallet } from '@/hooks/wallets/useOnboard'
 import { isMultisigExecutionInfo } from '@/utils/transaction-guards'
 import { isHardwareWallet, isSmartContractWallet } from '@/utils/wallets'
-import type { MultiSendCallOnlyContractImplementationType } from '@safe-global/protocol-kit'
+import type { MultiSendCallOnlyContractImplementationType } from '@exsat/test-protocol-kit'
 import { type ChainInfo, type SafeInfo, type TransactionDetails } from '@safe-global/safe-gateway-typescript-sdk'
 import { relayTransaction } from '@/services/tx/relaying'
 import type {

@@ -1,8 +1,8 @@
 import { JsonRpcProvider } from 'ethers'
 import * as contracts from '@/services/contracts/safeContracts'
-import type { SafeProvider } from '@safe-global/protocol-kit'
-import type { CompatibilityFallbackHandlerContractImplementationType } from '@safe-global/protocol-kit/dist/src/types'
-import { EMPTY_DATA, ZERO_ADDRESS } from '@safe-global/protocol-kit/dist/src/utils/constants'
+import type { SafeProvider } from '@exsat/test-protocol-kit'
+import type { CompatibilityFallbackHandlerContractImplementationType } from '@exsat/test-protocol-kit/dist/src/types'
+import { EMPTY_DATA, ZERO_ADDRESS } from '@exsat/test-protocol-kit/dist/src/utils/constants'
 import * as web3 from '@/hooks/wallets/web3'
 import * as sdkHelpers from '@/services/tx/tx-sender/sdk'
 import {
@@ -15,7 +15,7 @@ import { toBeHex } from 'ethers'
 import {
   Gnosis_safe__factory,
   Proxy_factory__factory,
-} from '@/types/contracts/factories/@safe-global/safe-deployments/dist/assets/v1.3.0'
+} from '@/types/contracts/factories/@exsat/test-safe-deployments/dist/assets/v1.3.0'
 import {
   getReadOnlyFallbackHandlerContract,
   getReadOnlyGnosisSafeContract,
@@ -32,7 +32,7 @@ import {
   getSafeL2SingletonDeployment,
   getSafeSingletonDeployment,
   getSafeToL2SetupDeployment,
-} from '@safe-global/safe-deployments'
+} from '@exsat/test-safe-deployments'
 import { Safe_to_l2_setup__factory } from '@/types/contracts'
 
 const provider = new JsonRpcProvider(undefined, { name: 'ethereum', chainId: 1 })

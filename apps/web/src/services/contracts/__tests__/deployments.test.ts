@@ -1,4 +1,4 @@
-import * as safeDeployments from '@safe-global/safe-deployments'
+import * as safeDeployments from '@exsat/test-safe-deployments'
 import { type ChainInfo } from '@safe-global/safe-gateway-typescript-sdk'
 
 import * as deployments from '../deployments'

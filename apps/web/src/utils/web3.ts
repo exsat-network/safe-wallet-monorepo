@@ -2,8 +2,8 @@ import type { JsonRpcSigner } from 'ethers'
 import { TypedDataEncoder } from 'ethers'
 import type { EIP712TypedData } from '@safe-global/safe-gateway-typescript-sdk'
 import type { TypedDataDomain } from 'ethers'
-import { adjustVInSignature } from '@safe-global/protocol-kit/dist/src/utils/signatures'
-import { SigningMethod } from '@safe-global/protocol-kit'
+import { adjustVInSignature } from '@exsat/test-protocol-kit/dist/src/utils/signatures'
+import { SigningMethod } from '@exsat/test-protocol-kit'
 
 export type EIP712Normalized = EIP712TypedData & { primaryType: string }
 

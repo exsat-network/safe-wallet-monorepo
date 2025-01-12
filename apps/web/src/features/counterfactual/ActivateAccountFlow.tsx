@@ -23,7 +23,7 @@ import { useAppSelector } from '@/store'
 import { hasFeature } from '@/utils/chains'
 import { hasRemainingRelays } from '@/utils/relaying'
 import { Box, Button, CircularProgress, Divider, Grid, Typography } from '@mui/material'
-import type { DeploySafeProps } from '@safe-global/protocol-kit'
+import type { DeploySafeProps } from '@exsat/test-protocol-kit'
 import { FEATURES } from '@/utils/chains'
 import React, { useContext, useMemo, useState } from 'react'
 import { getLatestSafeVersion } from '@/utils/chains'
@@ -32,7 +32,7 @@ import { useEstimateSafeCreationGas } from '@/components/new-safe/create/useEsti
 import useIsWrongChain from '@/hooks/useIsWrongChain'
 import NetworkWarning from '@/components/new-safe/create/NetworkWarning'
 import CheckWallet from '@/components/common/CheckWallet'
-import { getSafeToL2SetupDeployment } from '@safe-global/safe-deployments'
+import { getSafeToL2SetupDeployment } from '@exsat/test-safe-deployments'
 
 const useActivateAccount = (undeployedSafe: UndeployedSafe | undefined) => {
   const chain = useCurrentChain()

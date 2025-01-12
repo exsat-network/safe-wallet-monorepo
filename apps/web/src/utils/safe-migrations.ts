@@ -1,9 +1,9 @@
 import { Safe_to_l2_migration__factory, Safe_migration__factory } from '@/types/contracts'
-import { getCompatibilityFallbackHandlerDeployments } from '@safe-global/safe-deployments'
+import { getCompatibilityFallbackHandlerDeployments } from '@exsat/test-safe-deployments'
 import { type ExtendedSafeInfo } from '@/store/safeInfoSlice'
 import { getSafeContractDeployment, hasMatchingDeployment } from '@/services/contracts/deployments'
 import { sameAddress } from './addresses'
-import { getSafeToL2MigrationDeployment, getSafeMigrationDeployment } from '@safe-global/safe-deployments'
+import { getSafeToL2MigrationDeployment, getSafeMigrationDeployment } from '@exsat/test-safe-deployments'
 import {
   type MetaTransactionData,
   OperationType,
@@ -13,7 +13,7 @@ import {
 import type { ChainInfo } from '@safe-global/safe-gateway-typescript-sdk'
 import { isValidMasterCopy } from '@/services/contracts/safeContracts'
 import { isMultiSendCalldata } from './transaction-calldata'
-import { decodeMultiSendData } from '@safe-global/protocol-kit/dist/src/utils'
+import { decodeMultiSendData } from '@exsat/test-protocol-kit/dist/src/utils'
 import { __unsafe_createMultiSendTx } from '@/services/tx/tx-sender'
 import { LATEST_SAFE_VERSION } from '@/config/constants'
 

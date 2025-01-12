@@ -1,6 +1,6 @@
 import { faker } from '@faker-js/faker'
 import { Interface } from 'ethers'
-import { SENTINEL_ADDRESS } from '@safe-global/protocol-kit/dist/src/utils/constants'
+import { SENTINEL_ADDRESS } from '@exsat/test-protocol-kit/dist/src/utils/constants'
 import type { SafeInfo } from '@safe-global/safe-gateway-typescript-sdk'
 
 import { getRecoveryProposalTransactions } from '../transaction'

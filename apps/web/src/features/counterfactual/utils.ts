@@ -19,8 +19,8 @@ import type { AppDispatch } from '@/store'
 import { defaultSafeInfo } from '@/store/safeInfoSlice'
 import { didRevert, type EthersError } from '@/utils/ethers-utils'
 import { assertProvider, assertTx, assertWallet } from '@/utils/helpers'
-import { type DeploySafeProps, type PredictedSafeProps } from '@safe-global/protocol-kit'
-import { ZERO_ADDRESS } from '@safe-global/protocol-kit/dist/src/utils/constants'
+import { type DeploySafeProps, type PredictedSafeProps } from '@exsat/test-protocol-kit'
+import { ZERO_ADDRESS } from '@exsat/test-protocol-kit/dist/src/utils/constants'
 import type { SafeTransaction, SafeVersion, TransactionOptions } from '@safe-global/safe-core-sdk-types'
 import {
   type ChainInfo,
@@ -29,7 +29,7 @@ import {
   TokenType,
 } from '@safe-global/safe-gateway-typescript-sdk'
 import type { BrowserProvider, ContractTransactionResponse, Eip1193Provider, Provider } from 'ethers'
-import { getSafeL2SingletonDeployments, getSafeSingletonDeployments } from '@safe-global/safe-deployments'
+import { getSafeL2SingletonDeployments, getSafeSingletonDeployments } from '@exsat/test-safe-deployments'
 import { sameAddress } from '@/utils/addresses'
 
 import { encodeSafeCreationTx } from '@/components/new-safe/create/logic'

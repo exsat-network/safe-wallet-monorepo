@@ -7,10 +7,10 @@ import {
   THRESHOLD_STORAGE_POSITION,
 } from '@/components/tx/security/tenderly/utils'
 import * as safeContracts from '@/services/contracts/safeContracts'
-import { getMultiSendCallOnlyDeployment, getSafeSingletonDeployment } from '@safe-global/safe-deployments'
-import EthSafeTransaction from '@safe-global/protocol-kit/dist/src/utils/transactions/SafeTransaction'
-import { ZERO_ADDRESS } from '@safe-global/protocol-kit/dist/src/utils/constants'
-import { generatePreValidatedSignature } from '@safe-global/protocol-kit/dist/src/utils/signatures'
+import { getMultiSendCallOnlyDeployment, getSafeSingletonDeployment } from '@exsat/test-safe-deployments'
+import EthSafeTransaction from '@exsat/test-protocol-kit/dist/src/utils/transactions/SafeTransaction'
+import { ZERO_ADDRESS } from '@exsat/test-protocol-kit/dist/src/utils/constants'
+import { generatePreValidatedSignature } from '@exsat/test-protocol-kit/dist/src/utils/signatures'
 import { toBeHex } from 'ethers'
 import * as Web3 from '@/hooks/wallets/web3'
 

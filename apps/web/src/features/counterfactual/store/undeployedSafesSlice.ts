@@ -1,7 +1,7 @@
 import type { PayMethod } from '@/features/counterfactual/PayNowPayLater'
 import { type RootState } from '@/store'
 import { createSelector, createSlice, type PayloadAction } from '@reduxjs/toolkit'
-import type { PredictedSafeProps } from '@safe-global/protocol-kit'
+import type { PredictedSafeProps } from '@exsat/test-protocol-kit'
 import { selectChainIdAndSafeAddress, selectSafeAddress } from '@/store/common'
 import { type SafeVersion } from '@safe-global/safe-core-sdk-types'
 

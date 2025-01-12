@@ -2,7 +2,7 @@ import { renderHook } from '@/tests/test-utils'
 import { useCompatibleNetworks } from '../useCompatibleNetworks'
 import { type ReplayedSafeProps } from '@/store/slices'
 import { faker } from '@faker-js/faker'
-import { EMPTY_DATA, ZERO_ADDRESS } from '@safe-global/protocol-kit/dist/src/utils/constants'
+import { EMPTY_DATA, ZERO_ADDRESS } from '@exsat/test-protocol-kit/dist/src/utils/constants'
 import { ECOSYSTEM_ID_ADDRESS } from '@/config/constants'
 import { chainBuilder } from '@/tests/builders/chains'
 import {
@@ -10,7 +10,7 @@ import {
   getSafeL2SingletonDeployments,
   getProxyFactoryDeployments,
   getCompatibilityFallbackHandlerDeployments,
-} from '@safe-global/safe-deployments'
+} from '@exsat/test-safe-deployments'
 import * as useChains from '@/hooks/useChains'
 
 const L1_111_MASTERCOPY_DEPLOYMENTS = getSafeSingletonDeployments({ version: '1.1.1' })?.deployments

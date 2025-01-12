@@ -8,7 +8,7 @@ import accordionCss from '@/styles/accordion.module.css'
 import CodeIcon from '@mui/icons-material/Code'
 import DecodedData from '@/components/transactions/TxDetails/TxData/DecodedData'
 import { sameAddress } from '@/utils/addresses'
-import { getSafeToL2MigrationDeployment } from '@safe-global/safe-deployments'
+import { getSafeToL2MigrationDeployment } from '@exsat/test-safe-deployments'
 import { useCurrentChain } from '@/hooks/useChains'
 
 type SingleTxDecodedProps = {

@@ -12,8 +12,8 @@ import {
   _isMaliciousRecovery,
 } from '../recovery-state'
 import { useWeb3ReadOnly } from '@/hooks/wallets/web3'
-import { encodeMultiSendData } from '@safe-global/protocol-kit/dist/src/utils/transactions/utils'
-import { getMultiSendCallOnlyDeployment, getSafeSingletonDeployment } from '@safe-global/safe-deployments'
+import { encodeMultiSendData } from '@exsat/test-protocol-kit/dist/src/utils/transactions/utils'
+import { getMultiSendCallOnlyDeployment, getSafeSingletonDeployment } from '@exsat/test-safe-deployments'
 import { Interface } from 'ethers'
 import { getLatestSafeVersion } from '@/utils/chains'
 import { chainBuilder } from '@/tests/builders/chains'

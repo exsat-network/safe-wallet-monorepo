@@ -1,4 +1,4 @@
-import type { SafeContractImplementationType } from '@safe-global/protocol-kit'
+import type { SafeContractImplementationType } from '@exsat/test-protocol-kit'
 import type { SafeTransaction, SafeSignature } from '@safe-global/safe-core-sdk-types'
 import * as useWallet from '@/hooks/wallets/useWallet'
 import { act, renderHook } from '@/tests/test-utils'

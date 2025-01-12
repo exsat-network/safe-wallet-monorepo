@@ -1,5 +1,5 @@
 import { TWAP_FALLBACK_HANDLER, TWAP_FALLBACK_HANDLER_NETWORKS } from '@/features/swap/helpers/utils'
-import { getCompatibilityFallbackHandlerDeployments } from '@safe-global/safe-deployments'
+import { getCompatibilityFallbackHandlerDeployments } from '@exsat/test-safe-deployments'
 import NextLink from 'next/link'
 import { Typography, Box, Grid, Paper, Link, Alert } from '@mui/material'
 import semverSatisfies from 'semver/functions/satisfies'

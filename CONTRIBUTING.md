@@ -1,10 +1,11 @@
 # Contributing
 
 ### tl;dr
-* Pull requests are very welcome
-* Check [**good first issues**](https://github.com/safe-global/safe-wallet-monorepo/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22) if you want to contribute but don't know what
-* We do NOT accept tiny text edits, typo fixes etc, which is typically bot activity/airdrop farming
-* Each pull requests is rewarded with a [GitPOAP](https://www.gitpoap.io/gh/safe-global/safe-wallet-monorepo) but this does NOT guarantee any other perks
+
+- Pull requests are very welcome
+- Check [**good first issues**](https://github.com/safe-global/safe-wallet-monorepo/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22) if you want to contribute but don't know what
+- We do NOT accept tiny text edits, typo fixes etc, which is typically bot activity/airdrop farming
+- Each pull requests is rewarded with a [GitPOAP](https://www.gitpoap.io/gh/safe-global/safe-wallet-monorepo) but this does NOT guarantee any other perks
 
 ## Code Style
 

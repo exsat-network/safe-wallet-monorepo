@@ -245,7 +245,8 @@ export type TransactionsGetCreationTransactionV1ApiArg = {
   chainId: string
   safeAddress: string
 }
-export type TransactionsViewGetTransactionConfirmationViewV1ApiResponse = /** status 200  */
+export type TransactionsViewGetTransactionConfirmationViewV1ApiResponse =
+  /** status 200  */
   | BaselineConfirmationView
   | CowSwapConfirmationView
   | CowSwapTwapConfirmationView

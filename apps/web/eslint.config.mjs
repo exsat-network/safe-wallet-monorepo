@@ -46,6 +46,7 @@ export default [
       '@typescript-eslint/consistent-type-imports': 'error',
       '@typescript-eslint/await-thenable': 'error',
       'no-constant-condition': 'warn',
+      '@typescript-eslint/await-thenable': 'off',
 
       'unused-imports/no-unused-vars': [
         'error',

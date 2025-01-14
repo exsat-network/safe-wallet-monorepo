@@ -12,7 +12,7 @@ import {
   _isMaliciousRecovery,
 } from '../recovery-state'
 import { useWeb3ReadOnly } from '@/hooks/wallets/web3'
-import { encodeMultiSendData } from '@safe-global/protocol-kit/dist/src/utils/transactions/utils'
+import { encodeMultiSendData } from '@exsat/protocol-kit/dist/src/utils/transactions/utils'
 import { getMultiSendCallOnlyDeployment, getSafeSingletonDeployment } from '@safe-global/safe-deployments'
 import { Interface } from 'ethers'
 import { FEATURES, getLatestSafeVersion } from '@/utils/chains'

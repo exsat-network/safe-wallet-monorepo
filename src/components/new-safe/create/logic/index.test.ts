@@ -1,8 +1,8 @@
 import { JsonRpcProvider } from 'ethers'
 import * as contracts from '@/services/contracts/safeContracts'
-import type { SafeProvider } from '@safe-global/protocol-kit'
-import type { CompatibilityFallbackHandlerContractImplementationType } from '@safe-global/protocol-kit/dist/src/types'
-import { EMPTY_DATA, ZERO_ADDRESS } from '@safe-global/protocol-kit/dist/src/utils/constants'
+import type { SafeProvider } from '@exsat/protocol-kit'
+import type { CompatibilityFallbackHandlerContractImplementationType } from '@exsat/protocol-kit/dist/src/types'
+import { EMPTY_DATA, ZERO_ADDRESS } from '@exsat/protocol-kit/dist/src/utils/constants'
 import * as web3 from '@/hooks/wallets/web3'
 import * as sdkHelpers from '@/services/tx/tx-sender/sdk'
 import {

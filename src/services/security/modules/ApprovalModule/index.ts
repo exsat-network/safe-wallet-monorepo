@@ -8,7 +8,7 @@ import { type SafeTransaction } from '@safe-global/safe-core-sdk-types'
 import { type EIP712TypedData } from '@safe-global/safe-gateway-typescript-sdk'
 import { id } from 'ethers'
 import { type SecurityResponse, type SecurityModule, SecuritySeverity } from '../types'
-import { decodeMultiSendData } from '@safe-global/protocol-kit/dist/src/utils'
+import { decodeMultiSendData } from '@exsat/protocol-kit/dist/src/utils'
 
 export type ApprovalModuleResponse = Approval[]
 

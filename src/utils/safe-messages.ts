@@ -1,6 +1,6 @@
 import { getBytes, hashMessage, type TypedDataDomain, type JsonRpcSigner } from 'ethers'
 import { gte } from 'semver'
-import { adjustVInSignature } from '@safe-global/protocol-kit/dist/src/utils/signatures'
+import { adjustVInSignature } from '@exsat/protocol-kit/dist/src/utils/signatures'
 
 import { hashTypedData } from '@/utils/web3'
 import { isValidAddress } from './validation'

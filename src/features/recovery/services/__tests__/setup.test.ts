@@ -1,7 +1,7 @@
 import { getModuleInstance, KnownContracts, deployAndSetUpModule } from '@gnosis.pm/zodiac'
 import { faker } from '@faker-js/faker'
 import { OperationType } from '@safe-global/safe-core-sdk-types'
-import { SENTINEL_ADDRESS } from '@safe-global/protocol-kit/dist/src/utils/constants'
+import { SENTINEL_ADDRESS } from '@exsat/protocol-kit/dist/src/utils/constants'
 
 import { _getEditRecoveryTransactions, _getRecoverySetupTransactions } from '@/features/recovery/services/setup'
 import type { JsonRpcProvider } from 'ethers'

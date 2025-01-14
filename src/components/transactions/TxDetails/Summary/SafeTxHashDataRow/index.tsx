@@ -1,7 +1,7 @@
 import { TypedDataEncoder } from 'ethers'
 import { TxDataRow, generateDataRowValue } from '../TxDataRow'
 import { type SafeTransactionData, type SafeVersion } from '@safe-global/safe-core-sdk-types'
-import { getEip712TxTypes } from '@safe-global/protocol-kit/dist/src/utils'
+import { getEip712TxTypes } from '@exsat/protocol-kit/dist/src/utils'
 import useSafeAddress from '@/hooks/useSafeAddress'
 import useChainId from '@/hooks/useChainId'
 

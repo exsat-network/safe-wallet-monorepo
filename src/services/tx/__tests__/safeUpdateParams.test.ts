@@ -1,6 +1,6 @@
 import * as sdkHelpers from '@/services/tx/tx-sender/sdk'
 import { sameAddress } from '@/utils/addresses'
-import type { SafeProvider } from '@safe-global/protocol-kit'
+import type { SafeProvider } from '@exsat/protocol-kit'
 import {
   getFallbackHandlerDeployment,
   getSafeL2SingletonDeployment,

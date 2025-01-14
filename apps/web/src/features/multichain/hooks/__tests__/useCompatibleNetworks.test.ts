@@ -2,7 +2,7 @@ import { renderHook } from '@/tests/test-utils'
 import { useCompatibleNetworks } from '../useCompatibleNetworks'
 import { type ReplayedSafeProps } from '@/store/slices'
 import { faker } from '@faker-js/faker'
-import { EMPTY_DATA, ZERO_ADDRESS } from '@safe-global/protocol-kit/dist/src/utils/constants'
+import { EMPTY_DATA, ZERO_ADDRESS } from '@exsat/protocol-kit/dist/src/utils/constants'
 import { ECOSYSTEM_ID_ADDRESS } from '@/config/constants'
 import { chainBuilder } from '@/tests/builders/chains'
 import {

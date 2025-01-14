@@ -7,7 +7,7 @@ import * as useSafeInfo from '@/hooks/useSafeInfo'
 import * as coreSDK from '@/hooks/coreSDK/safeCoreSDK'
 import { ImplementationVersionState } from '@safe-global/safe-gateway-typescript-sdk'
 import { waitFor } from '@testing-library/react'
-import type Safe from '@safe-global/protocol-kit'
+import type Safe from '@exsat/protocol-kit'
 import { type JsonRpcProvider } from 'ethers'
 
 describe('useInitSafeCoreSDK hook', () => {

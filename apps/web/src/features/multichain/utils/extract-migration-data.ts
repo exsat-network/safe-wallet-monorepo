@@ -2,7 +2,7 @@ import type { TransactionData } from '@safe-global/safe-gateway-typescript-sdk'
 import { Safe_to_l2_migration__factory } from '@/types/contracts'
 import { sameAddress } from '@/utils/addresses'
 import { isMultiSendCalldata } from '@/utils/transaction-calldata'
-import { decodeMultiSendData } from '@safe-global/protocol-kit/dist/src/utils'
+import { decodeMultiSendData } from '@exsat/protocol-kit/dist/src/utils'
 import { getSafeToL2MigrationDeployment } from '@safe-global/safe-deployments'
 
 export const extractMigrationL2MasterCopyAddress = (txData: TransactionData): string | undefined => {

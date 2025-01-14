@@ -1,6 +1,6 @@
-import { SafeProvider } from '@safe-global/protocol-kit'
+import { SafeProvider } from '@exsat/protocol-kit'
 import { useEffect } from 'react'
-import type Safe from '@safe-global/protocol-kit'
+import type Safe from '@exsat/protocol-kit'
 import { encodeSignatures } from '@/services/tx/encodeSignatures'
 import type { SafeTransaction } from '@safe-global/safe-core-sdk-types'
 import useAsync from '@/hooks/useAsync'
@@ -12,11 +12,11 @@ import { useSafeSDK } from './coreSDK/safeCoreSDK'
 import useIsSafeOwner from './useIsSafeOwner'
 import { Errors, logError } from '@/services/exceptions'
 import useSafeInfo from './useSafeInfo'
-import { estimateTxBaseGas } from '@safe-global/protocol-kit/dist/src/utils/transactions/gas'
+import { estimateTxBaseGas } from '@exsat/protocol-kit/dist/src/utils/transactions/gas'
 import {
   getCompatibilityFallbackHandlerContract,
   getSimulateTxAccessorContract,
-} from '@safe-global/protocol-kit/dist/src/contracts/safeDeploymentContracts'
+} from '@exsat/protocol-kit/dist/src/contracts/safeDeploymentContracts'
 import { type JsonRpcProvider } from 'ethers'
 import { type ExtendedSafeInfo } from '@/store/safeInfoSlice'
 

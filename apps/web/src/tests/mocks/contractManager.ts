@@ -3,7 +3,7 @@ import {
   Multi_send__factory,
 } from '@/types/contracts/factories/@safe-global/safe-deployments/dist/assets/v1.3.0'
 import { faker } from '@faker-js/faker'
-import type { ContractManager } from '@safe-global/protocol-kit'
+import type { ContractManager } from '@exsat/protocol-kit'
 
 const safeContractInterface = Gnosis_safe__factory.createInterface()
 const multiSendInterface = Multi_send__factory.createInterface()

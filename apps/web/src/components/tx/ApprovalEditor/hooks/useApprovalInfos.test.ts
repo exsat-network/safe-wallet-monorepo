@@ -10,7 +10,7 @@ import { type EIP712TypedData, TokenType } from '@safe-global/safe-gateway-types
 import * as getTokenInfo from '@/utils/tokens'
 import { faker } from '@faker-js/faker'
 import { PSEUDO_APPROVAL_VALUES } from '../utils/approvals'
-import { encodeMultiSendData } from '@safe-global/protocol-kit'
+import { encodeMultiSendData } from '@exsat/protocol-kit'
 import { checksumAddress } from '@/utils/addresses'
 
 const ERC20_INTERFACE = ERC20__factory.createInterface()

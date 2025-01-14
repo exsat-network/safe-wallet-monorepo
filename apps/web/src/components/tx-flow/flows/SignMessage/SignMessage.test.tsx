@@ -1,4 +1,4 @@
-import type Safe from '@safe-global/protocol-kit'
+import type Safe from '@exsat/protocol-kit'
 import { act } from 'react'
 import { extendedSafeInfoBuilder } from '@/tests/builders/safe'
 import { hexlify, zeroPadValue, toUtf8Bytes } from 'ethers'

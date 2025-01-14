@@ -16,12 +16,12 @@ import {
   getSafeSingletonDeployment,
   getSafeToL2MigrationDeployment,
 } from '@safe-global/safe-deployments'
-import type Safe from '@safe-global/protocol-kit'
-import { encodeMultiSendData } from '@safe-global/protocol-kit'
+import type Safe from '@exsat/protocol-kit'
+import { encodeMultiSendData } from '@exsat/protocol-kit'
 import { Multi_send__factory, Safe_to_l2_migration__factory } from '@/types/contracts'
 import { faker } from '@faker-js/faker'
 import { getAndValidateSafeSDK } from '@/services/tx/tx-sender/sdk'
-import { decodeMultiSendData } from '@safe-global/protocol-kit/dist/src/utils'
+import { decodeMultiSendData } from '@exsat/protocol-kit/dist/src/utils'
 import { checksumAddress } from '../addresses'
 import { createUpdateMigration } from '../safe-migrations'
 

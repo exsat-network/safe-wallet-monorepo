@@ -13,7 +13,7 @@ import {
 import type { ChainInfo } from '@safe-global/safe-gateway-typescript-sdk'
 import { isValidMasterCopy } from '@/services/contracts/safeContracts'
 import { isMultiSendCalldata } from './transaction-calldata'
-import { decodeMultiSendData } from '@safe-global/protocol-kit/dist/src/utils'
+import { decodeMultiSendData } from '@exsat/protocol-kit/dist/src/utils'
 import { __unsafe_createMultiSendTx } from '@/services/tx/tx-sender'
 import { LATEST_SAFE_VERSION } from '@/config/constants'
 
